@@ -28,6 +28,6 @@ def draw_plot():
    ax.set_ylabel("Sea Level (inches)")
    ax.set_title("Rise in Sea Level")
    
-   # Save plot and return data for testing (DO NOT MODIFY)
+   # Save plot and return data for testing
    plt.savefig('sea_level_plot.png')
    return plt.gca()
